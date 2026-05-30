@@ -86,6 +86,15 @@ npm install
 
 npm run dev
 ```
+### Backend
+
+```bash
+cd backend
+
+cd Policar.Api
+
+dotnet run
+```
 
 A aplicação será iniciada em:
 
@@ -99,19 +108,16 @@ http://localhost:5173
 
 ### Página Inicial
 
-![Home](screenshots/Home.png)
+![Home](screenshots/home.png)
 
 ### Agendamento Online
 
-![Agendamento](screenshots/Agendamento.png)
+![Agendamento](screenshots/agendamento.png)
 
 ### Painel Administrativo
 
-![Admin](screenshots/Admin.png)
-
-### Dashboard
-
-![Admin](screenshots/Admin2.png)
+![Admin](screenshots/admin.png)
+![Admin](screenshots/admin2.png)
 
 ## 📑 Apresentação Completa
 
