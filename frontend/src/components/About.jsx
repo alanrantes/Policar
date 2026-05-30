@@ -1,4 +1,3 @@
-import { Clock, MapPin, Phone } from "lucide-react";
 import image1 from "../assets/images/antes-depois/image1.jpg";
 import image2 from "../assets/images/antes-depois/image2.jpg";
 import image3 from "../assets/images/antes-depois/image3.jpg";
