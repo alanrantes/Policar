@@ -115,7 +115,7 @@ http://localhost:5173
 
 ## 📑 Apresentação Completa
 
-[Baixar PDF](./PoliCar_Apresentacao.pdf)
+[Baixar PDF](./PoliCar_Telas.pdf)
 
 ---
 
