@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafaf9;
+  color: #1c1917;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background-color: #1c1917;
+  color: white;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #1c1917;
+  border: 1px solid #d6d3d1;
+}
+
+.btn-outline:hover {
+  background-color: #f5f5f4;
+}
+
+.btn-orange {
+  background-color: #ea580c;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #c2410c;
+}
+
+/* ========================= */
+/* DARK MODE */
+/* ========================= */
+
+body.dark-mode {
+  background-color: #0f0f0f;
+  color: #f5f5f4;
+}
+
+body.dark-mode .header,
+body.dark-mode .admin-login-card,
+body.dark-mode .dashboard-card,
+body.dark-mode .appointments-table-card,
+body.dark-mode .confirmed-card,
+body.dark-mode .info-card,
+body.dark-mode .service-card,
+body.dark-mode .modal-card,
+body.dark-mode .toast {
+  background-color: #1c1c1c;
+  color: #f5f5f4;
+  border-color: #2f2f2f;
+}
+
+body.dark-mode .header {
+  border-bottom-color: #2f2f2f;
+}
+
+body.dark-mode .logo-area h1,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+  color: #f5f5f4;
+}
+
+body.dark-mode .logo-area p,
+body.dark-mode p,
+body.dark-mode small,
+body.dark-mode label {
+  color: #d6d3d1;
+}
+
+body.dark-mode .nav-menu a {
+  color: #d6d3d1;
+}
+
+body.dark-mode .nav-menu a:hover {
+  color: #fb923c;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #f5f5f4;
+  color: #1c1917;
+}
+
+body.dark-mode .btn-outline {
+  background-color: #1c1c1c;
+  color: #f5f5f4;
+  border-color: #3f3f46;
+}
+
+body.dark-mode .btn-outline:hover {
+  background-color: #27272a;
+}
+
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background-color: #18181b;
+  color: #f5f5f4;
+  border-color: #52525b;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #a8a29e;
+}
+
+body.dark-mode table th {
+  background-color: #27272a;
+  color: #f5f5f4;
+}
+
+body.dark-mode table td {
+  background-color: #18181b;
+}
+
+body.dark-mode .appointments-table tbody tr:hover td {
+  background-color: #202023;
+}
+
+body.dark-mode .appointments-search input {
+  background-color: #18181b;
+  border-color: #52525b;
+}
+
+body.dark-mode .confirmed-filters {
+  background-color: #18181b;
+  border-color: #3f3f46;
+}
+
+body.dark-mode .confirmed-filters input,
+body.dark-mode .confirmed-filters select {
+  background-color: #18181b;
+  border-color: #52525b;
+}
+
+body.dark-mode .confirmed-empty {
+  background-color: #18181b;
+  border-color: #3f3f46;
+}
+
+body.dark-mode .confirmed-item {
+  background-color: #18181b;
+  border-color: #3f3f46;
+}
+
+body.dark-mode .action-btn {
+  background-color: #18181b;
+  color: #f5f5f4;
+  border-color: #3f3f46;
+}
+
+body.dark-mode .action-btn:hover {
+  background-color: #27272a;
+}
+
+body.dark-mode .icon-action-btn {
+  color: #f87171;
+}
+
+body.dark-mode .icon-action-btn:hover {
+  background-color: #3f1d1d;
+  border-color: #7f1d1d;
+}
+
+body.dark-mode .about-section {
+  background-color: #0f0f0f;
+}
+
+body.dark-mode .about-grid h2 {
+  color: #f5f5f4;
+}
+
+body.dark-mode .about-text {
+  color: #d6d3d1;
+}
+
+body.dark-mode .gallery-card {
+  border: 1px solid #2f2f2f;
+}
+
+body.dark-mode .info-card {
+  background-color: #1c1c1c;
+  color: #f5f5f4;
+}
+
+body.dark-mode .about-section,
+body.dark-mode .services {
+  background-color: #0f0f0f;
+}
+
+body.dark-mode .service-icon,
+body.dark-mode .admin-login-icon {
+  background-color: #431407;
+  color: #fb923c;
+}
+
+body.dark-mode .modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+body.dark-mode .error-message {
+  background-color: #3f1d1d;
+  color: #fecaca;
+}
+
+body.dark-mode .status-pending {
+  background-color: #422006;
+  color: #facc15;
+}
+
+body.dark-mode .status-confirmed,
+body.dark-mode .confirmed-header span,
+body.dark-mode .confirmed-item-header span {
+  background-color: #052e16;
+  color: #86efac;
+}
+
+body.dark-mode .status-completed {
+  background-color: #172554;
+  color: #93c5fd;
+}
+
+body.dark-mode .status-cancelled {
+  background-color: #3f1d1d;
+  color: #fecaca;
+}

@@ -1,0 +1,12 @@
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 100;
+  background: #1c1917;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}

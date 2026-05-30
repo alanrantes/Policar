@@ -1,0 +1,6 @@
+@Policar.Api_HostAddress = http://localhost:5004
+
+GET {{Policar.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

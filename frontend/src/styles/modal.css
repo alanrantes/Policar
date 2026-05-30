@@ -1,0 +1,72 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal-card {
+  width: 100%;
+  max-width: 672px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  font-size: 24px;
+}
+
+.modal-header p {
+  color: #78716c;
+  font-size: 14px;
+}
+
+.modal-close {
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.appointment-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.appointment-form input,
+.appointment-form select {
+  border: 1px solid #d6d3d1;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.form-button {
+  grid-column: span 2;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .appointment-form {
+    grid-template-columns: 1fr;
+  }
+
+  .form-button {
+    grid-column: span 1;
+  }
+}
