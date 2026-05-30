@@ -99,31 +99,26 @@ http://localhost:5173
 
 ### Página Inicial
 
-> Adicione aqui um print da Home.
+![Home](screenshots/Home.png)
 
 ### Agendamento Online
 
-> Adicione aqui um print do modal de agendamento.
+![Agendamento](screenshots/Agendamento.png)
 
 ### Painel Administrativo
 
-> Adicione aqui um print da área administrativa.
+![Admin](screenshots/Admin.png)
 
 ### Dashboard
 
-> Adicione aqui um print dos indicadores e agendamentos.
+![Admin](screenshots/Admin2.png)
+
+## 📑 Apresentação Completa
+
+[Baixar PDF](./PoliCar_Apresentacao.pdf)
 
 ---
 
 ## 🎯 Objetivo
 
 Este projeto foi desenvolvido para praticar conceitos de desenvolvimento frontend com React, componentização, gerenciamento de estado, responsividade, organização de código e integração futura com APIs desenvolvidas em ASP.NET Core.
-
----
-
-## 👨‍💻 Autor
-
-**Alan Lacerda Arantes**
-
-- LinkedIn: https://www.linkedin.com/in/alanlacerdaarantes
-- GitHub: https://github.com/alanrantes
