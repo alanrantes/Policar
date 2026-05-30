@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { CalendarDays, MessageCircle } from "lucide-react";
+import banner1 from "../assets/images/banner/banner1.jpg";
+import banner2 from "../assets/images/banner/banner2.jpg";
+import banner3 from "../assets/images/banner/banner3.jpg";
+import banner4 from "../assets/images/banner/banner4.jpg";
 
-const heroImages = [
-  "https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=1200&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
-];
+const heroImages = [banner1, banner2, banner3, banner4];
 
 function Hero({ onOpenModal }) {
   const [currentImage, setCurrentImage] = useState(0);

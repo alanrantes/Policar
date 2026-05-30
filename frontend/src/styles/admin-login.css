@@ -1,3 +1,7 @@
+/* =========================
+   Login Administrativo
+========================= */
+
 .admin-login-container {
   max-width: 620px;
   margin: 80px auto;
@@ -12,20 +16,26 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
 }
 
+
+/* =========================
+   Cabeçalho do Login
+========================= */
+
 .admin-login-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   gap: 12px;
+
+  text-align: center;
   margin-bottom: 28px;
 }
 
 .admin-login-icon {
   background: #ffedd5;
   color: #c2410c;
-  padding: 14px;
   border-radius: 14px;
+  padding: 14px;
 }
 
 .admin-login-header h2 {
@@ -36,6 +46,11 @@
   color: #78716c;
   font-size: 14px;
 }
+
+
+/* =========================
+   Formulário
+========================= */
 
 .admin-login-form {
   display: flex;
@@ -54,13 +69,23 @@
   justify-content: center;
 }
 
+
+/* =========================
+   Mensagem de Erro
+========================= */
+
 .error-message {
   background: #fee2e2;
   color: #b91c1c;
-  padding: 12px;
   border-radius: 12px;
+  padding: 12px;
   margin-bottom: 16px;
 }
+
+
+/* =========================
+   Responsividade
+========================= */
 
 @media (max-width: 768px) {
   .admin-login-container {

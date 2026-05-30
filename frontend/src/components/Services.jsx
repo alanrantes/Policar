@@ -3,7 +3,7 @@ import { Sparkles, ShieldCheck, Car, Wrench } from "lucide-react";
 const services = [
   {
     title: "Polimento automotivo",
-    desc: "Remove manchas leves, riscos superficiais e devolve brilho à pintura.",
+    desc: "Remove imperfeições leves e recupera o brilho da pintura.",
     icon: Sparkles,
   },
   {
@@ -30,7 +30,7 @@ function Services() {
         <div className="services-header">
           <h2>Serviços disponíveis</h2>
           <p>
-            Cards simples para o cliente entender rapidamente o que a oficina faz.
+            Conheça os principais serviços oferecidos para cuidado, proteção e valorização do seu veículo.
           </p>
         </div>
 

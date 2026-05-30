@@ -10,7 +10,7 @@ function Header({ setCurrentPage, isDarkMode, toggleDarkMode }) {
           </div>
 
           <div>
-            <h1>AutoBrilho Polimentos</h1>
+            <h1>PoliCar</h1>
             <p>Oficina de estética automotiva</p>
           </div>
         </div>

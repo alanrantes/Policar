@@ -1,17 +1,29 @@
+/* =========================
+   Agendamentos Confirmados
+========================= */
+
 .confirmed-card {
   margin-top: 32px;
+
   background: white;
   border: 1px solid #e7e5e4;
   border-radius: 16px;
+
   overflow: hidden;
 }
 
+
+/* =========================
+   Cabeçalho
+========================= */
+
 .confirmed-header {
-  padding: 20px;
-  border-bottom: 1px solid #e7e5e4;
   display: flex;
   justify-content: space-between;
   gap: 16px;
+
+  padding: 20px;
+  border-bottom: 1px solid #e7e5e4;
 }
 
 .confirmed-header p {
@@ -21,26 +33,38 @@
 }
 
 .confirmed-header span {
+  height: fit-content;
+
   background: #dcfce7;
   color: #15803d;
+
   border-radius: 999px;
   padding: 8px 14px;
+
   font-size: 14px;
-  height: fit-content;
 }
 
+
+/* =========================
+   Filtros
+========================= */
+
 .confirmed-filters {
-  padding: 20px;
-  border-bottom: 1px solid #e7e5e4;
-  background: #fafaf9;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+
+  padding: 20px;
+
+  background: #fafaf9;
+  border-bottom: 1px solid #e7e5e4;
 }
 
 .confirmed-filters label {
   display: block;
+
   color: #78716c;
+
   font-size: 13px;
   margin-bottom: 6px;
 }
@@ -48,48 +72,70 @@
 .confirmed-filters input,
 .confirmed-filters select {
   width: 100%;
+
+  background: white;
   border: 1px solid #d6d3d1;
   border-radius: 12px;
+
   padding: 12px;
+
   font-size: 14px;
-  background: white;
 }
 
+
+/* =========================
+   Lista de Cards
+========================= */
+
 .confirmed-grid {
-  padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+
   max-height: 700px;
   overflow-y: auto;
+
+  padding: 20px;
 }
 
 .confirmed-empty {
   grid-column: 1 / -1;
+
+  background: #fafaf9;
   border: 1px dashed #d6d3d1;
   border-radius: 16px;
-  background: #fafaf9;
-  text-align: center;
+
   padding: 32px;
+
+  text-align: center;
 }
 
 .confirmed-empty small {
   display: block;
+
   color: #78716c;
+
   margin-top: 4px;
 }
 
+
+/* =========================
+   Card Individual
+========================= */
+
 .confirmed-item {
+  background: white;
   border: 1px solid #e7e5e4;
   border-radius: 16px;
+
   padding: 20px;
-  background: white;
 }
 
 .confirmed-item-header {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+
   margin-bottom: 16px;
 }
 
@@ -99,19 +145,24 @@
 }
 
 .confirmed-item-header span {
+  height: fit-content;
+
   background: #dcfce7;
   color: #15803d;
+
   border-radius: 999px;
   padding: 5px 10px;
+
   font-size: 12px;
-  height: fit-content;
 }
 
 .confirmed-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
   color: #57534e;
+
   font-size: 14px;
 }
 
@@ -125,22 +176,35 @@
   color: #ea580c;
 }
 
+
+/* =========================
+   Ações do Card
+========================= */
+
 .confirmed-actions {
-  margin-top: 18px;
-  padding-top: 14px;
-  border-top: 1px solid #e7e5e4;
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  margin-top: 18px;
+  padding-top: 14px;
+
+  border-top: 1px solid #e7e5e4;
 }
 
 .confirmed-actions .action-btn {
   width: 100%;
-  justify-content: center;
+
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
+
+
+/* =========================
+   Responsividade
+========================= */
 
 @media (max-width: 900px) {
   .confirmed-grid {

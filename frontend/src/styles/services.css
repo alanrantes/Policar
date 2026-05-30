@@ -26,6 +26,17 @@
   border: 1px solid #e7e5e4;
   border-radius: 16px;
   padding: 24px;
+  cursor: pointer;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+  border-color: #ea580c;
 }
 
 .service-icon {
@@ -35,6 +46,16 @@
   background: #ffedd5;
   color: #c2410c;
   margin-bottom: 16px;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+  background: #ea580c;
+  color: white;
 }
 
 .service-card h3 {

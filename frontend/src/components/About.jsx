@@ -1,59 +1,70 @@
 import { Clock, MapPin, Phone } from "lucide-react";
+import image1 from "../assets/images/antes-depois/image1.jpg";
+import image2 from "../assets/images/antes-depois/image2.jpg";
+import image3 from "../assets/images/antes-depois/image3.jpg";
+import image4 from "../assets/images/antes-depois/image4.jpg";
+import image5 from "../assets/images/antes-depois/image5.jpg";
+import image6 from "../assets/images/antes-depois/image6.jpg";
+import image7 from "../assets/images/antes-depois/image7.jpg";
+import image8 from "../assets/images/antes-depois/image8.jpg";
 
 const galleryImages = [
   {
-    label: "Antes",
-    image:
-      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=900&auto=format&fit=crop",
+    label: "Antes e Depois",
+    image: image1,
   },
   {
-    label: "Depois",
-    image:
-      "https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=900&auto=format&fit=crop",
+    label: "Polimento",
+    image: image2,
+  },
+  {
+    label: "Restauração de Faróis",
+    image: image3,
+  },
+  {
+    label: "Higienização Interna",
+    image: image4,
+  },
+  {
+    label: "Cristalização",
+    image: image5,
+  },
+  {
+    label: "Higienização Interna",
+    image: image6,
+  },
+  {
+    label: "Polimento",
+    image: image7,
+  },
+  {
+    label: "Higienização Interna",
+    image: image8,
   },
 ];
 
 function About() {
   return (
     <section className="about-section">
-      <div className="container about-grid">
-        <div>
-          <h2>Antes e depois</h2>
+      <div className="container">
+        <div className="about-header">
+          <h2>Portfólio de serviços</h2>
 
           <p className="about-text">
-            Espaço para fotos reais dos carros atendidos, mostrando o resultado
-            do polimento, higienização e acabamento.
+            Confira alguns resultados de serviços realizados em veículos atendidos pela oficina.
           </p>
-
-          <div className="before-after-gallery">
-            {galleryImages.map((item) => (
-              <div className="gallery-card" key={item.label}>
-                <img src={item.image} alt={item.label} />
-                <span>{item.label}</span>
-              </div>
-            ))}
-          </div>
         </div>
 
-        <div className="info-card">
-          <h3>Informações úteis</h3>
-
-          <div className="info-list">
-            <p>
-              <Clock size={18} />
-              Segunda a sábado, 08:00 às 18:00
-            </p>
-
-            <p>
-              <MapPin size={18} />
-              Rua Exemplo, 123 - Bairro Centro
-            </p>
-
-            <p>
-              <Phone size={18} />
-              (31) 99999-9999
-            </p>
-          </div>
+        <div className="before-after-gallery">
+          {galleryImages.map((item, index) => (
+            <div
+              className={`gallery-card ${index === 0 ? "gallery-card-large" : ""}`}
+              key={`${item.label}-${index}`}
+            >
+              <img src={item.image} alt={item.label} />
+              <span>{item.label}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>

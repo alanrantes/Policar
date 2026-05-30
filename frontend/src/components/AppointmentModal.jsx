@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { CalendarDays } from "lucide-react";
 import { services } from "../data/services";
 
 const availableTimes = [
@@ -63,14 +64,21 @@ function AppointmentModal({ appointments, onClose, onSubmitAppointment }) {
     <div className="modal-overlay">
       <div className="modal-card">
         <div className="modal-header">
-          <div>
-            <h2>Agendamento online</h2>
-            <p>Preencha os dados para solicitar um horário.</p>
-          </div>
-
           <button className="modal-close" onClick={onClose}>
             ×
           </button>
+
+          <div className="modal-header-content">
+            <div className="modal-icon">
+              <CalendarDays size={28} />
+            </div>
+
+            <h2>Agendamento online</h2>
+
+            <p>
+              Preencha os dados abaixo para solicitar seu atendimento.
+            </p>
+          </div>
         </div>
 
         <form className="appointment-form">

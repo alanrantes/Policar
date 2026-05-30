@@ -1,8 +1,17 @@
+/* =========================
+   Reset Global
+========================= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* =========================
+   Estrutura Base
+========================= */
 
 body {
   background-color: #fafaf9;
@@ -16,15 +25,23 @@ body {
   padding: 0 16px;
 }
 
+
+/* =========================
+   Botões
+========================= */
+
 .btn {
-  border: none;
-  border-radius: 8px;
-  padding: 9px 14px;
-  font-size: 14px;
-  cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 9px 14px;
+
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -35,6 +52,7 @@ body {
 .btn-outline {
   background-color: white;
   color: #1c1917;
+
   border: 1px solid #d6d3d1;
 }
 
@@ -51,24 +69,31 @@ body {
   background-color: #c2410c;
 }
 
-/* ========================= */
-/* DARK MODE */
-/* ========================= */
+
+/* =========================
+   DARK MODE
+========================= */
 
 body.dark-mode {
   background-color: #0f0f0f;
   color: #f5f5f4;
 }
 
+
+/* =========================
+   Containers e Cards
+========================= */
+
 body.dark-mode .header,
 body.dark-mode .admin-login-card,
 body.dark-mode .dashboard-card,
 body.dark-mode .appointments-table-card,
 body.dark-mode .confirmed-card,
-body.dark-mode .info-card,
 body.dark-mode .service-card,
 body.dark-mode .modal-card,
-body.dark-mode .toast {
+body.dark-mode .toast,
+body.dark-mode .before-after-gallery,
+body.dark-mode .footer {
   background-color: #1c1c1c;
   color: #f5f5f4;
   border-color: #2f2f2f;
@@ -78,20 +103,30 @@ body.dark-mode .header {
   border-bottom-color: #2f2f2f;
 }
 
-body.dark-mode .logo-area h1,
+
+/* =========================
+   Tipografia
+========================= */
+
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
-body.dark-mode h4 {
+body.dark-mode h4,
+body.dark-mode .logo-area h1 {
   color: #f5f5f4;
 }
 
-body.dark-mode .logo-area p,
 body.dark-mode p,
 body.dark-mode small,
-body.dark-mode label {
+body.dark-mode label,
+body.dark-mode .logo-area p {
   color: #d6d3d1;
 }
+
+
+/* =========================
+   Navegação
+========================= */
 
 body.dark-mode .nav-menu a {
   color: #d6d3d1;
@@ -100,6 +135,11 @@ body.dark-mode .nav-menu a {
 body.dark-mode .nav-menu a:hover {
   color: #fb923c;
 }
+
+
+/* =========================
+   Botões
+========================= */
 
 body.dark-mode .btn-primary {
   background-color: #f5f5f4;
@@ -116,6 +156,11 @@ body.dark-mode .btn-outline:hover {
   background-color: #27272a;
 }
 
+
+/* =========================
+   Formulários
+========================= */
+
 body.dark-mode input,
 body.dark-mode select,
 body.dark-mode textarea {
@@ -128,6 +173,11 @@ body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder {
   color: #a8a29e;
 }
+
+
+/* =========================
+   Tabelas
+========================= */
 
 body.dark-mode table th {
   background-color: #27272a;
@@ -146,6 +196,11 @@ body.dark-mode .appointments-search input {
   background-color: #18181b;
   border-color: #52525b;
 }
+
+
+/* =========================
+   Agendamentos Confirmados
+========================= */
 
 body.dark-mode .confirmed-filters {
   background-color: #18181b;
@@ -168,6 +223,11 @@ body.dark-mode .confirmed-item {
   border-color: #3f3f46;
 }
 
+
+/* =========================
+   Botões de Ação
+========================= */
+
 body.dark-mode .action-btn {
   background-color: #18181b;
   color: #f5f5f4;
@@ -187,12 +247,14 @@ body.dark-mode .icon-action-btn:hover {
   border-color: #7f1d1d;
 }
 
-body.dark-mode .about-section {
-  background-color: #0f0f0f;
-}
 
-body.dark-mode .about-grid h2 {
-  color: #f5f5f4;
+/* =========================
+   Seções da Home
+========================= */
+
+body.dark-mode .about-section,
+body.dark-mode .services {
+  background-color: #0f0f0f;
 }
 
 body.dark-mode .about-text {
@@ -203,30 +265,45 @@ body.dark-mode .gallery-card {
   border: 1px solid #2f2f2f;
 }
 
-body.dark-mode .info-card {
-  background-color: #1c1c1c;
-  color: #f5f5f4;
-}
 
-body.dark-mode .about-section,
-body.dark-mode .services {
-  background-color: #0f0f0f;
-}
+/* =========================
+   Ícones
+========================= */
 
 body.dark-mode .service-icon,
-body.dark-mode .admin-login-icon {
+body.dark-mode .admin-login-icon,
+body.dark-mode .modal-icon {
   background-color: #431407;
   color: #fb923c;
 }
+
+
+/* =========================
+   Modal
+========================= */
 
 body.dark-mode .modal-overlay {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+body.dark-mode .modal-close {
+  color: white;
+}
+
+
+/* =========================
+   Mensagens
+========================= */
+
 body.dark-mode .error-message {
   background-color: #3f1d1d;
   color: #fecaca;
 }
+
+
+/* =========================
+   Status
+========================= */
 
 body.dark-mode .status-pending {
   background-color: #422006;

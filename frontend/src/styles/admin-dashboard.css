@@ -1,9 +1,19 @@
+/* =========================
+   Dashboard Administrativo
+========================= */
+
 .admin-dashboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+
   margin-bottom: 24px;
 }
+
+
+/* =========================
+   Cards de Indicadores
+========================= */
 
 .dashboard-card {
   background: white;
@@ -21,6 +31,11 @@
 .dashboard-card strong {
   font-size: 32px;
 }
+
+
+/* =========================
+   Responsividade
+========================= */
 
 @media (max-width: 900px) {
   .admin-dashboard {
