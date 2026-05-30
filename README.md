@@ -121,7 +121,7 @@ http://localhost:5173
 
 ## 📑 Apresentação Completa
 
-[Visualizar PDF](./PoliCar_Telas.pdf)
+[Visualizar PDF](./apresentação/PoliCar_Telas.pdf)
 
 ---
 
