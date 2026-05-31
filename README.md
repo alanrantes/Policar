@@ -1,59 +1,48 @@
-# 🚗 PoliCar
+# 🚗 PoliCar | React + ASP.NET Core + SQL Server
 
-Sistema web para gestão de serviços de estética automotiva, desenvolvido com foco em agendamento online, apresentação de serviços e painel administrativo.
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
 
-## 📌 Sobre o Projeto
+<p align="justify">
+Sistema web desenvolvido para gerenciamento e agendamento de serviços de estética automotiva, permitindo que clientes realizem solicitações de atendimento online e acompanhem os serviços oferecidos pela oficina.
+</p>
 
-O PoliCar foi desenvolvido como projeto de portfólio para simular o ambiente de uma oficina especializada em estética automotiva.
-
-A aplicação permite que clientes visualizem os serviços oferecidos, consultem exemplos de trabalhos realizados e realizem solicitações de agendamento através de uma interface moderna e responsiva.
-
-Além da área pública, o sistema possui uma área administrativa para gerenciamento dos agendamentos realizados.
+<p align="justify">
+A aplicação possui frontend desenvolvido em React e uma API REST construída com C# e ASP.NET Core, utilizando SQL Server para persistência dos dados e Swagger para documentação e testes dos endpoints.
+</p>
 
 ---
 
-## ✨ Funcionalidades
+## 🚀 Funcionalidades
 
-### Área do Cliente
+### 👥 Área do Cliente
 
-- Visualização dos serviços disponíveis
-- Portfólio com imagens de serviços realizados
-- Agendamento online de serviços
-- Interface responsiva para desktop e dispositivos móveis
-- Tema claro e escuro
+- Visualização dos serviços oferecidos
+- Portfólio de serviços realizados
+- Solicitação de agendamento online
+- Seleção de data e horário disponíveis
+- Interface responsiva
+- Alternância entre tema claro e escuro
 
-### Área Administrativa
+### 🛠️ Área Administrativa
 
-- Dashboard com indicadores de agendamentos
-- Listagem de solicitações
+- Dashboard de acompanhamento
+- Listagem de agendamentos
 - Busca e filtros
-- Controle de status dos atendimentos
-- Visualização de agendamentos confirmados
+- Alteração de status dos atendimentos
+- Gerenciamento de solicitações
+- Visualização de serviços confirmados
 
----
+### 🔄 Integração Frontend e Backend
 
-## 🛠️ Tecnologias Utilizadas
-
-### Frontend
-
-- React
-- JavaScript
-- CSS3
-- Vite
-- Lucide React
-
-### Backend (em desenvolvimento)
-
-- ASP.NET Core
-- C#
-- REST API
-
-### Controle de Versão
-
-- Git
-- GitHub
-
----
+- Consumo de API REST
+- Operações CRUD de agendamentos
+- Persistência de dados em SQL Server
+- Documentação e testes via Swagger
 
 ## 📂 Estrutura do Projeto
 
@@ -73,6 +62,26 @@ Policar
     └── Policar.Api
 ```
 
+### Frontend
+
+- React
+- JavaScript
+- CSS3
+- Vite
+- Lucide React
+
+### Backend
+
+- ASP.NET Core Web API
+- C#
+- Entity Framework Core
+- SQL Server
+- Swagger (OpenAPI)
+
+### Controle de Versão
+
+- Git
+- GitHub
 ---
 
 ## 🚀 Como Executar o Projeto
@@ -126,5 +135,4 @@ http://localhost:5173
 ---
 
 ## 🎯 Objetivo
-
-Este projeto foi desenvolvido para praticar conceitos de desenvolvimento frontend com React, componentização, gerenciamento de estado, responsividade, organização de código e integração futura com APIs desenvolvidas em ASP.NET Core.
+<p align="justify">Este projeto foi desenvolvido para praticar conceitos de desenvolvimento full stack, utilizando React no frontend e ASP.NET Core no backend. Durante o desenvolvimento foram aplicados conceitos de componentização, gerenciamento de estado, consumo de APIs REST, persistência de dados com SQL Server, documentação de endpoints com Swagger e organização de código em camadas.</p>
