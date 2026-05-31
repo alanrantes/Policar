@@ -15,6 +15,8 @@ Sistema web desenvolvido para gerenciamento e agendamento de serviços de estét
 A aplicação possui frontend desenvolvido em React e uma API REST construída com C# e ASP.NET Core, utilizando SQL Server para persistência dos dados e Swagger para documentação e testes dos endpoints.
 </p>
 
+🎥 **Demonstração em vídeo:** [Assistir no YouTube](https://youtu.be/-IZYKZDoltA)
+
 ---
 
 ## 🚀 Funcionalidades
